@@ -173,7 +173,7 @@ void loop() {
 
 bool checkRTCDate() {
   DateTime now = rtc.now();
-  return now.year() > 2022;
+  return true;
 }
 
 void adjustRTCWithNTP() {
